@@ -27,7 +27,7 @@ JogoForca/
 │   │   ├── Desenhavel.java      # Interface para desenhar o estado do jogo
 │   │   └── Jogavel.java         # Interface para mecânicas de jogo
 │   └── model/
-│       └── Forca.java            # Classe principal do jogo (implementa as interfaces)
+│       └── Forca.java           # Classe principal do jogo (implementa as interfaces)
 ├── bin/                          # Arquivos compilados (.class)
 └── README.md                     # Documentação do projeto
 ```
@@ -58,7 +58,7 @@ A classe `Forca` implementa as interfaces `Desenhavel` e `Jogavel`, contendo tod
 - `erros`: Contador de tentativas erradas
 
 **Funcionalidades:**
-- Seleção aleatória de palavras de um banco com mais de 90 palavras
+- Seleção aleatória de palavras de um banco com 100 palavras
 - Desenho progressivo do boneco (6 estágios)
 - Validação de entrada do jogador
 - Controle de letras já tentadas
@@ -114,7 +114,7 @@ java -cp bin Principal
 
 ## ✨ Características
 
-- ✅ Banco com mais de 90 palavras variadas (português e alguns termos técnicos)
+- ✅ Banco com 100 palavras variadas (português e alguns termos técnicos)
 - ✅ Interface de console interativa e intuitiva
 - ✅ Desenho ASCII art da forca em 6 estágios
 - ✅ Validação robusta de entrada
